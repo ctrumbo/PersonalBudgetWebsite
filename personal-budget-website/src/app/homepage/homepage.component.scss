@@ -3,7 +3,7 @@ h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-  color: rgb(236, 236, 236);
+  color: rgb(62, 53, 117);
 }
 
 h2 {
@@ -13,11 +13,8 @@ h2 {
   color: rgb(189, 189, 189);
 }
 
-.hero-image {
-  background-image: url("/assets/DataVisualization.png");
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  position: relative;
- }
+.button {
+  display: inline;
+  text-align: center;
+  font-size: 1.3em;
+}

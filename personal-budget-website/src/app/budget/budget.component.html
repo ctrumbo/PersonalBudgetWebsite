@@ -1,0 +1,32 @@
+<h1>Chart</h1>
+
+<form>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="data">Data</label>
+  <input type="data" id="data" name="data"><br><br>
+</form>
+
+<div style="display: block;">
+  <canvas height="100" baseChart
+      [datasets]="barChartData1"
+      [labels]="barChartLabels1"
+      [options]="barChartOptions1"
+      [legend]="barChartLegend1"
+      [chartType]="barChartType1"
+  ></canvas>
+  <canvas height="100" width="300" baseChart
+      [datasets]="barChartData1"
+      [labels]="barChartLabels1"
+      [options]="barChartOptions1"
+      [legend]="barChartLegend1"
+      [chartType]="barChartType2"
+  ></canvas>
+  <canvas height="100" width="300" baseChart
+      [datasets]="barChartData1"
+      [labels]="barChartLabels1"
+      [options]="barChartOptions1"
+      [legend]="barChartLegend1"
+      [chartType]="barChartType3"
+  ></canvas>
+
